@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meat charset="utf-8" />
+    <meat name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+    <style>
+      .nna{
+        width:200px;
+        height:200px;
+        background-color:red;
+        transition:all 2s;
+       }
+       div:hover{
+          background-color:black;
+          transfrom:translateX(500px) translateY(0.8) rotate(360deg);
+       }
+    </style>
+  </head>
+  <body>
+     <div class="nna"></div>
+  </body>
+</html>
